@@ -1,0 +1,129 @@
+html{
+  background: url('3.gif')no-repeat center fixed;
+  webkit-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+}
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: TNYbold;
+  padding: 10px;
+  background: white;
+  color: orange;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: center;
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: red;
+  color: orange;
+  border-radius: 5px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 25%;
+  background-color: black;
+  padding-left: 20px;
+  margin-top: 27px;
+  height: 30%;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: black;
+  width: 96%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  color: white;
+  background-color: black;
+  padding: 50px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table{
+  border:solid 0px ;
+  width: 100%;
+}
+
+table td{
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 5px;
+}
+table td:hover{
+  background-color: whitesmoke;
+  color:black;
+}
+
+button{
+  padding: 10px;
+  background-color: dodgerblue;
+  border-color: white;
+  border-radius: 10px;
+  color: white;
+}
+button:hover{
+  background-color:yellow;
+  color: green;
+}
+div{
+  background-color: grey;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+.image{
+  width: 100px;
+  height: 100px;
+}
+.text-about{
+  padding: 20px;
+  background-color: aqua;
+  border-radius: 5px;
+  color:black;
+}
+.pendidikan{
+  color: #333;
+}

@@ -1,0 +1,42 @@
+.header{
+	height: 100px;
+	background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+padding: 25px;
+}
+.sidebarleft{
+	width: 100px;
+	background-color: red;
+	height: 300px;
+	float: left;
+    border-radius: 20px;
+     text-align: center;
+padding: 25px;
+}
+.sidebarright{
+	width: 100px;
+	background-color: orange;
+	float: right;
+	height: 300px;
+    border-radius: 20px;
+     text-align: center;
+  padding: 25px;   
+}
+.content{
+	
+	background-color: yellow;
+	height: 300px;
+    border-radius: 20px;
+     text-align: center;
+   padding: 25px;  
+}
+
+.footer{
+
+	background-color: plum;
+	height: 100px;
+	border-radius: 20px;
+	 text-align: center;
+	padding: 25px; 
+}

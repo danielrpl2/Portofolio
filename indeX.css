@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: black;
+	font-family: sans-serif;
+	background-image: url(y.gif);
+
+}
+.content{
+	text-align: left;
+}
+.content h1{
+	font-size: 25px;
+	color: white;
+	font-weight: 600;
+
+}
+.content a{
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	font-size: 10px;
+	border: 2px solid white;
+	padding: 10px 20px;
+	border-radius: 50px;
+	margin-top: 10px;
+}
+/*
+h1{
+	margin: 0 0 10px;
+	padding: 0;
+	color: orange;
+	font-size: 24px;
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+}
+input{
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+
+}
+input [type="text"]{
+	background: #fff;
+	width: 240px;
+
+
+}
+
+/*html{
+	background: url('y.gif')no-repeat center fixed;
+	webkit-background-size: cover;
+	o-background-size: cover;
+	background-size: cover;
+	height: 100vh;z
+}
